@@ -13,14 +13,28 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/png" href="/image16x16.png" />
     <meta name="generator" content={Astro.generator} />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.jpg">
-    <meta name="theme-color" content="#475569">
-    <meta name="description" content="This is Yahav Rosner's protfolio website.">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.jpg" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#E2E8F0"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#475569"
+    />
+    <meta
+      name="description"
+      content="This is Yahav Rosner's protfolio website."
+    />
     <title>{title}</title>
     <style>
-    	@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
-		*{font-family: "Cairo";}
-	</style>
+      @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
+      * {
+        font-family: "Cairo";
+      }
+    </style>
   </head>
   <body class="dark:bg-slate-600 bg-slate-200">
     <slot />
