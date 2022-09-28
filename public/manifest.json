@@ -7,23 +7,5 @@
     "48": "image48x48.png",
     "96": "image96x96.png"
   },
-  "background_color": [
-    {
-      "color": "#E2E8F0"
-    },
-    {
-      "color": "#475569",
-      "media": "(prefers-color-scheme: dark)"
-    }
-  ],
-  "theme_color": [
-    {
-      "color": "#E2E8F0",
-      "media": "(prefers-color-scheme: light)"
-    },
-    {
-      "color": "#475569",
-      "media": "(prefers-color-scheme: dark)"
-    }
-  ]
+  "background_color": "#475569"
 }
