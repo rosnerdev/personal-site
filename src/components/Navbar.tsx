@@ -1,3 +1,5 @@
+import NavLink from "./NavLink";
+
 const NavLinks: string[][] = [['home','/'], ['terminal','/terminal']];
 
 const Navbar = () => {
@@ -6,9 +8,7 @@ const Navbar = () => {
             <div className="flex justify-center gap-4">
                 {NavLinks.map((link) => {
                     return (
-                        <a href={link[1]} key={link[0]} className="dark:text-white hover:underline">
-                            {link[0]}
-                        </a>
+                        <NavLink href={link[1]} name={link[0]} key={link[0]}/>
                     )
                 })}
             </div>
