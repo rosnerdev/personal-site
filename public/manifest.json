@@ -1,14 +1,29 @@
 {
-    "manifest_version": 2,
-    "author": "Yahav Rosner",
-    "name": "Yahav's Site",
-    "icons": {
-        "16": "image16x16.png",
-        "48": "image48x48.png",
-        "96": "image96x96.png"
+  "manifest_version": 2,
+  "author": "Yahav Rosner",
+  "name": "Yahav's Site",
+  "icons": {
+    "16": "image16x16.png",
+    "48": "image48x48.png",
+    "96": "image96x96.png"
+  },
+  "background_color": [
+    {
+      "color": "#E2E8F0"
     },
-    "background_color": [
-      { "color": "#E2E8F0" },
-      { "color": "#475569", "media": "(prefers-color-scheme: dark)" }
+    {
+      "color": "#475569",
+      "media": "(prefers-color-scheme: dark)"
+    }
+  ],
+  "theme_color": [
+    {
+      "color": "#E2E8F0",
+      "media": "(prefers-color-scheme: light)"
+    },
+    {
+      "color": "#475569",
+      "media": "(prefers-color-scheme: dark)"
+    }
   ]
 }
