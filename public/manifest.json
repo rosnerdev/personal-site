@@ -7,7 +7,7 @@
         "48": "image48x48.png",
         "96": "image96x96.png"
     },
-    "theme_colors": [
+    "background_color": [
       { "color": "#E2E8F0" },
       { "color": "#475569", "media": "(prefers-color-scheme: dark)" }
   ]
