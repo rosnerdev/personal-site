@@ -1,6 +1,6 @@
 import NavLink from "./NavLink";
 
-const NavLinks: string[][] = [['home','/'], ['terminal','/terminal']];
+const NavLinks: string[][] = [['home','/']];
 
 const Navbar = () => {
     return (
